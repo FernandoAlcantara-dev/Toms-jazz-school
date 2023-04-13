@@ -101,8 +101,6 @@ nav a{
 
     text-decoration: none;
     padding: .5rem;
-
-    border: 1px solid black;
 }
 
 /* SEÇÕES */
@@ -160,4 +158,71 @@ h2{
     width: 40px;
 
     top: -.75rem;
+}
+
+
+.courses-section{
+    padding-bottom: 8rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+
+    margin-top: -8rem;
+
+    margin-bottom: 4rem;
+}
+
+.card{
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
+
+    max-width: 17rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.card:nth-child(2n){
+    align-self: flex-end;
+    background-color: var(--color-secondary);
+}
+
+.card h3{
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.card a{
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+/* RODAPÉ */
+
+footer{
+    border-bottom: none;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a{
+    display: block;
+    padding-left: 0;
+}
+
+footer form label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+footer form input{
+    border: 2px solid var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
+    font-size: 1.5rem;
+
+    width: 100%;
+    padding: .5rem;
 }
