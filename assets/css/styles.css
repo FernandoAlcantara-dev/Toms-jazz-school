@@ -80,6 +80,10 @@ footer{
 
 }
 
+.button:hover{
+    background-color: var(--color-secondary);
+}
+
 /* CABEÇALHO */
 header img{
     display: block;
@@ -225,4 +229,15 @@ footer form input{
 
     width: 100%;
     padding: .5rem;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width: 640px){
+
+/* CABEÇALHO */
+    header nav{
+        display: block;
+        text-align: center;
+    }
 }
